@@ -1,0 +1,131 @@
+@media screen and (max-width: 1400px){
+
+.paw-port-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+}
+
+@media screen and (max-width: 1050px){
+    .hero-cta{
+        margin: 0 auto;
+    }
+    .logo{
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .hero-content{
+        height: 70vh;
+    }
+    .slider-img{
+        height: 70vh;
+    }
+    .section-padding{
+        padding: 50px 0;
+    }
+    .center-title{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .product-feature-content{
+        padding-right: 0;
+        margin-bottom: 50px;
+    }
+    section.price.section-padding .row.dis-flex{
+        flex-direction: column-reverse;
+    }
+    .price-content{
+        width: 100%;
+        padding-left: 0;
+        margin-bottom: 50px;
+    }
+    .paw-port-container{
+        width: 95%;
+    }
+    .pawport-list{
+       flex-wrap: wrap;
+    }
+    .paw-port-left{
+        width: 100%;
+    }
+    .pawport-center{
+        width: 50%;
+        margin-bottom: 0;
+    }
+    .pawport-right{
+        width: 50%;
+
+    }
+    .why-different{
+        padding-bottom: 50px;
+    }
+    .howWorkBox{
+        margin-bottom: 30px;
+    }
+    .newslatter-box h1{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .paw-footer{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .promo-code {
+        text-align: center;
+    }
+    .promo-code p{
+        font-size: 14px;
+        display: block;
+        justify-content: center;
+    }
+    .hero-cta h1{
+        font-size: 35px!important;
+    }
+    .hero-cta{
+        width: 90%;
+    }
+    .carousel-control-next {
+        right: -16px!important;
+    }
+    .about-box{
+        margin-bottom: 20px;
+    }
+    h1{
+        font-size: 35px!important;
+    }
+    h2{
+        font-size: 28px!important;
+    }
+    .paw-port-left{
+        margin-top: 0;
+    }
+    .video-background{
+        border-radius: 10px;
+    }
+    .testmonail-box {
+    width: 313px;
+    padding: 30px 15px;
+}
+.news-content{
+    padding: 0;
+}
+.newslatter-box h1 {
+    font-size: 26px !important;
+    color: #fff;
+}
+.subscribe-form form{
+    flex-direction: column;
+}
+.paw-footer{
+    width: 100%;
+}
+.footer-bottob-box{
+    flex-direction: column;
+}
+.footer-bottob-box p{
+    margin-bottom: 8px;
+}
+}
