@@ -128,4 +128,21 @@
 .footer-bottob-box p{
     margin-bottom: 8px;
 }
+.video-background a {
+    font-size: 22px;
+    color: #fff;
+}
+.gobal-btn a {
+    background: #1F1F1F;
+    padding: 12px 30px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: .6s;
+    display: inline-block;
+}
+.hero-cta {
+    padding: 30px 31px;
+
+}
 }
