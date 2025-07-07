@@ -70,6 +70,19 @@
     .paw-footer{
         width: 70%;
     }
+    .three-button {
+    display: flex
+;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.three-button ul{
+    justify-content: center;
+}
+.three-button ul li{
+        margin:20px 0;
+}
+
 }
 
 @media screen and (max-width: 600px){

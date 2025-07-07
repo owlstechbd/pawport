@@ -490,6 +490,25 @@ html{
 	text-align: center;
 	margin-top: 50px;
 }
+.three-button{
+	display: flex;
+	flex-wrap: wrap;
+}
+.three-button ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.three-button ul li {
+	margin-left: 15px;
+	margin-top: 13px;
+}
+.three-button ul li a{
+	border-radius: 4px;
+	background: #000;
+	font-weight: 600;
+	padding: 13px 15px;
+	color: #fff;
+}
 
 .subscribe-form {
   display: flex;
@@ -616,4 +635,10 @@ footer{
 }
 .hero-cta .paypal-btn input.pp-SW2V7MHU65PGA{
 	width: 100%;
+}
+
+.three-center-btn{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
 }
