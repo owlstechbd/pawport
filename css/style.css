@@ -493,6 +493,7 @@ html{
 .three-button{
 	display: flex;
 	flex-wrap: wrap;
+	padding: 50px 0 0;
 }
 .three-button ul{
 	display: flex;
@@ -501,13 +502,25 @@ html{
 .three-button ul li {
 	margin-left: 15px;
 	margin-top: 13px;
+	position: relative;
 }
-.three-button ul li a{
-	border-radius: 4px;
-	background: #000;
+.three-button ul li span{
+	position: absolute;
+	left: 2px;
+	top: -40px;
+	font-size: 11px;
 	font-weight: 600;
-	padding: 13px 15px;
-	color: #fff;
+	background: #5BBDBA;
+	padding: 3px 5px;
+	border-radius: 4px;
+}
+.three-button ul li a {
+    border-radius: 4px;
+    background: #000;
+    font-weight: 600;
+    padding: 15px 8px;
+    color: #fff;
+    font-size: 14px;
 }
 
 .subscribe-form {
