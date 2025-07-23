@@ -85,6 +85,27 @@
 
 }
 
+
+@media screen and (max-width: 770px){
+    .trust-list{
+        margin-top: 50px;
+    }
+    .slider-img{
+        height: 90vh;
+    }
+    .hero-content{
+        height: 90vh;
+    }
+    .bundle-offers {
+    margin-top: 20px;
+    text-align: center;
+}
+    .bundle-offers button{
+        margin: 10px 0 0;
+    }
+
+}
+
 @media screen and (max-width: 600px){
     .promo-code {
         text-align: center;
@@ -158,4 +179,18 @@
     padding: 30px 31px;
 
 }
+.trust-list-box{
+    margin-bottom: 10px;
 }
+}
+
+
+@media screen and (max-width: 380px){
+    .slider-img{
+        height: 110VH;
+    }
+    .hero-content{
+        height: 110vh;
+    }
+}
+

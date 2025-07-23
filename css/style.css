@@ -89,7 +89,7 @@ p {
 	width: 100%;
 	position: absolute;
 	display: flex;
-	align-items: center;
+	padding-top: 100px;
 	z-index: 99;
 	height: 90vh;
 }
@@ -242,8 +242,20 @@ html{
 }
 .price-content h2{
 	color:#5BBDBA;
-	margin: 30px 0;
+	margin: 20px 0;
 	font-size: 52px!important;
+}
+.price-content ul {
+	margin: 0 ;
+	padding: 0;
+}
+.price-content ul li {
+		margin: 10px 0;
+}
+.price-content ul li strong{
+	font-size: 15px;
+	color: #03a19c;
+	font-weight: 700;
 }
 .price-content h2 span{
 	color:#959595 ;
@@ -255,14 +267,50 @@ html{
 	width: 80%;
 	padding-left: 5%;
 }
-.price-content ul{
+.list-light{
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	padding: 25px 0 40px;
+	padding: 25px 0 40px!important;
 }
 .price-content h1{
 	color: #1F1F1F;
+}
+.thankyou{
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+
+.thankyou img{
+	width: 40%;
+}
+.thankyou-logo img{
+	width: 130px;
+	margin-top: 30px;
+}
+.thankyou h1{
+	margin: 30px 0 10px;
+}
+@media screen and (max-width: 800px){
+	.thankyou{
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	padding: 100px 20px;
+}
+	.thankyou img{
+		width: 70%;
+	}
+	.thankyou h1{
+		
+		font-size: 25px!important;
+	}
+	.thankyou-logo img{
+	width: 100px;
+	margin-top: 30px;
+}
 }
 .price-content ul li{
 	font-weight: 600;
@@ -522,6 +570,24 @@ html{
     color: #fff;
     font-size: 14px;
 }
+.center-text{
+	margin: 20px 0 0;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.center-text p{
+	font-size: 14px;
+}
+.center-text ul{
+	margin: 0;
+	padding: 0;
+}
+.center-text ul li{
+	margin: 5px 0;
+	list-style: disc!important;
+}
 
 .subscribe-form {
   display: flex;
@@ -654,4 +720,36 @@ footer{
 	display: flex;
 	justify-content: center;
 	margin-top: 50px;
+}
+
+.trust-list-box{
+	width: 100%;
+	padding: 25px 20px;
+	text-align: center;
+	background: #e5fefe;
+	border-radius: 5px;
+}
+.trust-list-box img{
+	margin-bottom: 10px;
+}
+.trust-list-box p{
+	color: #000;
+}
+.trust-list{
+	margin-top: -100px;
+}
+.bundle-offers{
+	margin-top: 20px;
+}
+.bundle-note{
+	color: #fff;
+	margin-top: 10px;
+	font-size: 14px;
+}
+.bundle-offers button{
+	padding: 10px 30px;
+	border: none;
+	border-radius: 4px;
+	background: #000;
+	color: #fff;
 }
