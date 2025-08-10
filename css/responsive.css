@@ -78,9 +78,11 @@
 }
 .three-button ul{
     justify-content: center;
+    margin-top: 40px;
 }
 .three-button ul li{
         margin:20px 0;
+        margin-bottom: 50px;
 }
 
 }
